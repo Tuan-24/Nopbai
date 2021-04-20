@@ -1,0 +1,227 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: #696969;
+}
+a:hover{
+	color: #adad90;
+}
+.container {
+	width: 1200px;
+	margin: auto;
+}
+.menu ul li{
+	display: inline-block;
+	padding: 10px 20px;
+	text-transform: uppercase;
+}
+.menu{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.rihanna{
+	font-size: 50px;
+	color: black;
+}
+.rihanna:hover{
+	color: red;
+}
+.slice{
+	margin-top: 30px;
+	position: relative;
+}
+.slice img{
+	width: 1200px;
+}
+.slice .left{
+	position: absolute;
+	left: 75px;
+	top: 120px;
+	color: white;
+}
+.slice .left h2{
+	font-size: 60px;
+}
+.left p{
+	margin-top: 10px;
+}
+.button {
+	padding: 10px 40px;
+	background-color: #FFFFFF;
+	border-radius: 30px;
+	color: black;
+	font-size: 15px;
+	border: none;
+	cursor: pointer;	
+	margin-top: 20px;
+	margin-left: 70px;
+	font-weight: bold;
+}
+.button:hover{
+	background-color: #adad90;
+}
+.slice .right{
+	position: absolute;
+	bottom: 30px;
+	right: 20px;
+}
+.banner{
+	margin-top: 20px;
+}
+#bannerLeft{
+	width: 600px;
+	margin-right: 20px;
+	float: left;
+	height: 720px;
+	background-image: url("../Image/rihannavalerianpremierelead0-1517705145143807376480.jpg");
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+#bannerRight{
+	width: 580px;
+	float: left;
+	height: 720px;
+	background-image: url("../Image/44063395000005784864022imagem42_1504855462976-removebg-preview.png");
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	background-color: antiquewhite;
+}
+.textl{
+	position: absolute;
+	left: 140px;
+	bottom: 100px;
+	font-size: 50px;
+}
+.viewl{
+	position: absolute;
+	left: 160px;
+	bottom: 50px;
+	padding: 10px 30px;
+	background-color: #FFFFFF;
+	border-radius: 30px;
+	color: black;
+	font-size: 15px;
+	border: none;
+	cursor: pointer;	
+	margin-top: 20px;
+	margin-left: 70px;
+	font-weight: bold;
+}
+.viewl:hover{
+	background-color: #adad90;
+}
+#bannerRight p{
+	position: absolute;
+	color: black;
+	font-size: 50px;
+	margin-top: 20px;
+	left: 20px;
+}
+#bannerRight h3{
+	position: absolute;
+	font-size: 30px;
+	left: 450px;
+	bottom: 450px;
+}
+#bannerRight h3:hover{color: red}
+.clear-both{
+	clear: both;
+}
+.content{
+	text-align: center;
+	font-size: 40px;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+.layout{
+	display: flex;
+	justify-content: center;
+}
+.layout img{
+	width: 285px;
+	height: 400px;
+	margin: 10px;
+}	
+.content1{
+	font-size: 15px;
+	margin-left: 100px;
+	font-weight: bold;
+	padding: 5px 20px;
+	border-radius: 40px;;
+	border: none;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+}
+.content1:hover{
+	background: red;
+}
+.total{
+	display: flex;
+	justify-content: left;
+}
+.banner1{
+	width: 600px;
+	height: 1000px;
+	background-image: url("../Image/giphy.gif");
+	background-position: center;
+	background-size: cover;
+	margin: 40px 10px 40px 10px;
+	background-repeat: no-repeat;
+}
+.banner2{
+	width: 600px;
+	height: 1000px;
+	background-image: url("../Image/giphy (1).gif");
+	background-position: center;
+	background-size: cover;
+	margin: 150px 10px 10px 10px; 
+	background-repeat: no-repeat;
+}
+.banner3{
+	width: 600px;
+	height: 1000px;
+	background-image: url("../Image/giphy (2).gif");
+	background-position: center;
+	background-size: cover;
+	margin: 150px 10px 10px 10px;
+	background-repeat: no-repeat;
+}
+button{
+	font-size: 30px;
+	margin-left: 465px;
+	padding: 8px 30px;
+	border-radius: 40px;;
+	border: none;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+}
+button:hover{
+	background-color: red;
+}
+.footer{
+	width: 100%;
+	height: 60px;
+	background: black;
+	margin-top: 20px;
+}
+.footer ul li{
+	display: inline-block;
+	padding: 20px 59px;
+	color: white;
+}
+.footer ul li a{
+	color: white; 
+}
+.footer ul li a:hover{
+	color: red;
+}
